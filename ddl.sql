@@ -30,6 +30,7 @@ CREATE TABLE Points (
 
 CREATE TABLE Frases (
     FrasesID int NOT NULL AUTO_INCREMENT,
+    Frase varchar(255) NOT NULL,
     Date date NOT NULL,
     ChildId int NOT NULL,
     PRIMARY KEY (FrasesID),
