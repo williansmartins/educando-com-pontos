@@ -1913,11 +1913,12 @@ class PHP_CRUD_API {
 $api = new PHP_CRUD_API(array(
 	'dbengine'=>'MySQL',
 	'hostname'=>'localhost',
-	'username'=>'localhost',
-	'password'=>'localhost',
-	'database'=>'localhost',
+	'username'=>'root',
+	'password'=>'root',
+	'database'=>'test',
 	'charset'=>'utf8'
 ));
+
 $api->executeCommand();
 
 // For Microsoft SQL Server 2012 use:

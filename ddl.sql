@@ -1,10 +1,12 @@
-# DDL SQL
-## pontos
+# modelo de dados
+## DDL SQL
+
+### pontos
 - child_id
 - date
 - total
 
-## frases
+### frases
 - child_id
 - date
 - frase
