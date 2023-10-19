@@ -9302,8 +9302,7 @@ section {
     margin-top: 30px; }
   section.children .child {
     width: 100%;
-    height: 130px;
-    padding: 10px; }
+    height: 130px; }
     section.children .child.selected {
       background-color: #10df7f; }
     section.children .child img {
