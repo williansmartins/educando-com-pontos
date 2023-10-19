@@ -1,0 +1,38 @@
+// mobile
+body {
+    background-color: blue;
+}
+
+section{
+    outline: solid 1px;
+    height: 100%;
+    
+    // display: none;
+    background-color: gray;
+}
+
+// @media screen and (min-width: 300px) {
+//     body {
+//         background-color: lightgreen;
+//     }
+// }
+
+//tablet
+@media screen and (min-width: 800px) {
+    body {
+        background-color: red;
+    }
+}
+
+//laptop
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: yellow;
+    }
+
+    section{
+        width: 33.33%;
+        height: 100vh;
+        float: left;
+    }
+}
