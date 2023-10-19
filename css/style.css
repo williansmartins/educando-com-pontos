@@ -1,10 +1,27 @@
 body {
   background-color: blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 section {
   outline: solid 1px;
   height: 100%;
+  display: block;
   background-color: gray;
+}
+section.children .child {
+  height: 130px;
+  width: 240px;
+  padding: 15px;
+}
+section.children .child img {
+  float: left;
+}
+section.children .child .info {
+  float: left;
+  margin-left: 15px;
+}
+section.children .child .info p {
+  margin: 8px 0px;
 }
 @media screen and (min-width: 800px) {
   body {

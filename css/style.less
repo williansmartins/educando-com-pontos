@@ -1,15 +1,41 @@
 // mobile
 body {
     background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 section{
     outline: solid 1px;
     height: 100%;
     
-    // display: none;
+    display: block;
     background-color: gray;
+
+    &.children{
+
+        .child{
+            height: 130px;
+            // outline: solid 1px red;
+            width: 240px;
+            padding: 15px;
+
+            img{
+                float: left;
+            }
+            .info{
+                float: left;
+                margin-left: 15px;
+
+                p{
+                    margin: 8px 0px;
+                }
+            }
+        }
+        
+
+    }
 }
+
 
 // @media screen and (min-width: 300px) {
 //     body {
