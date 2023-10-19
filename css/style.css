@@ -10,7 +10,9 @@ section {
   outline: solid 1px;
   height: 100%;
   display: block;
-  background-color: gray;
+}
+section h2 {
+  margin-top: 30px;
 }
 section.children .child {
   height: 130px;
