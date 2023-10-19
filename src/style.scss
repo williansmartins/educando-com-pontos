@@ -1,4 +1,8 @@
+$success: #0074d9;
+// $danger: #39d515;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
 
 // mobile
 body {
@@ -12,7 +16,7 @@ h1{
 
 section{
     padding: 15px;
-    outline: solid 1px;
+    // outline: solid 1px;
     height: 100%;
     
     display: block;
@@ -23,22 +27,37 @@ section{
     }
 
     &.children{
+        // display: none;
 
         .child{
+            width: 100%;
             height: 130px;
-            // outline: solid 1px red;
-            width: 240px;
-            padding: 15px;
+            // float: left;
+            padding: 10px;
+
+            &.selected{
+                background-color: rgb(16, 223, 127);
+            }
 
             img{
                 float: left;
             }
+
+            .name{
+                font-weight: bold;
+            }
+
             .info{
                 float: left;
-                margin-left: 15px;
+                margin-left: 5px;
 
                 p{
                     margin: 8px 0px;
+                }
+
+                .strong{
+                    font-size: 15px;
+                    font-weight: bold;
                 }
             }
         }
@@ -46,11 +65,11 @@ section{
     }
 
     &.points{
-        
+        // display: none;
     }
 
-    &.points{
-        
+    &.frases{
+        // display: none;
     }
 }
 

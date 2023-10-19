@@ -12,32 +12,33 @@
 <body>
     <section class="children">
         <h1>Filhos</h1>
-        <div class="child">
-            <img src="https://placehold.co/100x100" />
+        <div class="child rounded mt-3">
+            <img src="https://placehold.co/100x100" class="rounded-circle"/>
             <div class="info">
                 <p class="name">Luis Felipe</p>
-                <p class="points">Pontos: 20</p>
-                <p class="frases">Frases: 40</p>
+                <p class="points">Pontos: <span class="strong">20</span></p>
+                <p class="frases">Frases: <span class="strong">40</span></p>
             </div>
         </div>
-        <div class="child">
-            <img src="https://placehold.co/100x100" />
+        <div class="child rounded mt-3 selected">
+            <img src="https://placehold.co/100x100" class="rounded-circle"/>
             <div class="info">
                 <p class="name">Luis Miguel</p>
-                <p class="points">Pontos: 20</p>
-                <p class="frases">Frases: 40</p>
+                <p class="points">Pontos: <span class="strong">20</span></p>
+                <p class="frases">Frases: <span class="strong">40</span></p>
             </div>
         </div>
     </section>
     <section class="points">
         <h1>Pontos</h1>
         <div class="input-group">
-            <input type="number" class="form-control">
+            <input type="number" class="form-control" placeholder="total">
+            <input type="text" class="form-control" placeholder="motivo">
             <button class="btn btn-success">+</button>
             <button class="btn btn-danger">-</button>
         </div>
         <h2>Histórico</h2>
-        <table class="table">
+        <table class="table table-striped">
             <tr>
                 <th>data</th>
                 <th>pontos</th>
@@ -63,7 +64,7 @@
             <button class="btn btn-success">+</button>
         </div>
         <h2>Histórico</h2>
-        <table class="table">
+        <table class="table table-striped">
             <tr>
                 <th>data</th>
                 <th>frase</th>
