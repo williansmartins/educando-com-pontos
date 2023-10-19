@@ -6,10 +6,12 @@
     <title>Educando com pontos</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/extra.css" />
     <script src="js/modernizr-custom.js"></script>
 </head>
 <body>
     <section class="children">
+        <h1>Filhos</h1>
         <div class="child">
             <img src="https://placehold.co/100x100" />
             <div class="info">
@@ -27,7 +29,21 @@
             </div>
         </div>
     </section>
-    <section class="points">points</section>
-    <section class="frases">frases</section>
+    <section class="points">
+        <h1>Pontos</h1>
+        <div class="input-group">
+            <input type="number" class="form-control">
+            <button class="btn btn-success">+</button>
+            <button class="btn btn-danger">-</button>
+        </div>
+    </section>
+    <section class="frases">
+        <h1>Frases</h1>
+        <div class="input-group">
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+
+            <button class="btn btn-success">+</button>
+        </div>
+    </section>
 </body>
 </html>
